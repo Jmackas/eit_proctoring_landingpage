@@ -101,4 +101,10 @@ a.contact_button {
   padding: 27px;
   box-shadow: 2px 2px 2px #00000061;
   border-radius: 53px;
+  transition: .2s;
+}
+
+a.contact_button:hover {
+  background: white;
+  color: black;
 }
