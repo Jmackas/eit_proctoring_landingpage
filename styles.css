@@ -96,6 +96,7 @@ Contact Us Button
 
 a.contact_button {
   background: red;
+  color: white;
   display: flex;
   font-size: 146%;
   padding: 27px;
