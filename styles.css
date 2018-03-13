@@ -1,0 +1,95 @@
+/*===============================
+Universal Elements
+===============================*/
+/* Document target */
+body {
+  margin: 0;
+  font-family: arial;
+  padding: 0;
+  text-align: center;
+  color: white;
+  background: #673ab7;
+  background: linear-gradient(to bottom right, #6f3cc8, #0e0225);
+  min-height: 100vh;
+}
+
+
+/* Header 1 */
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 418%;
+  text-shadow: 1px 1px 1px black;
+}
+
+/*===============================
+Buttons
+===============================*/
+/* Container for the buttons */
+.button_container {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 5% 0;
+}
+
+/* All hyperlinks within the button container */
+.button_container a {
+  text-decoration: none;
+  color: white;
+}
+
+/* EIT and Curtin button container (individual targetting) */
+.button_container .eit_button, .button_container .curtin_button {
+  display: flex;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px lightgray solid;
+  height: 237px;
+  justify-content: center;
+  background: white;
+  align-items: center;
+  margin: 0 10px;
+  transition: .4s;
+  border-bottom: 5px solid rgba(0,0,0,0);
+}
+
+/* EIT button */
+.button_container .eit_button {  
+  background-image: url(elements/eit_logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* EIT button hover */
+.button_container .eit_button:hover {
+  border-bottom: 5px solid #136fd2;
+}
+
+
+/* Curtin button */
+.button_container .curtin_button {
+  background: white;
+  background-image: url(elements/curtin_logo.png);
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+/* Curtin button hover */
+.button_container .curtin_button:hover {
+  border-bottom: 5px solid #cc9900;
+}
+
+/* Curtin and EIT button select action */
+.button_container .eit_button:active, .button_container .curtin_button:active {
+  transform: translate(0,5px);
+}
+
+/*===============================
+Contact Us Button
+===============================*/
+a.contact_button {
+  background: red;
+  display: flex;
+  width: 10px;
+}
