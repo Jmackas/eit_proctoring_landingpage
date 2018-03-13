@@ -85,6 +85,10 @@ Buttons
   transform: translate(0,5px);
 }
 
+@media only screen and (max-width: 1125px) {
+
+}
+
 /*===============================
 Contact Us Button
 ===============================*/
