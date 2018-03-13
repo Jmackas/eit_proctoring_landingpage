@@ -88,8 +88,17 @@ Buttons
 /*===============================
 Contact Us Button
 ===============================*/
+/* Contact us button container */
+.flex_center {
+  display: flex;
+  justify-content: center;
+}
+
 a.contact_button {
   background: red;
   display: flex;
-  width: 10px;
+  font-size: 146%;
+  padding: 27px;
+  box-shadow: 2px 2px 2px #00000061;
+  border-radius: 53px;
 }
