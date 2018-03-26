@@ -70,10 +70,12 @@ h1 {
   font-size: 418%;
 }
 
+/* Subheading to compliment H1 */
 .header_sub {
   padding: 0;
   margin: 0;
-  color: #ffffff47;
+  color: #ffffff8f;
+  font-size: 75%;
 }
 
 /* Header 2 */
