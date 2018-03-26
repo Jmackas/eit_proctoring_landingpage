@@ -163,6 +163,13 @@ Buttons
   transform: translate(0,5px);
 }
 
+/* Text within the buttons */
+.button_container span {
+  transform: translate(0, -100px);
+  color: black;
+  font-weight: bolder;
+}
+
 @media only screen and (max-width: 858px) {
   .button_container {
       display: block;
