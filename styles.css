@@ -8,11 +8,55 @@ body {
   padding: 0;
   text-align: center;
   color: white;
-  background: #673ab7;
-  background: linear-gradient(to bottom right, #6f3cc8, #0e0225);
+  background: linear-gradient(270deg, #44198f, #120033);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 34s ease infinite;
+  -moz-animation: AnimationName 34s ease infinite;
+  animation: AnimationName 34s ease infinite;
   min-height: 100vh;
 }
 
+@-webkit-keyframes AnimationName {
+  0% {
+      background-position: 0% 50%
+  }
+
+  50% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+      background-position: 0% 50%
+  }
+
+  50% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0% 50%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+      background-position: 0% 50%
+  }
+
+  50% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0% 50%
+  }
+}
 
 /* Header 1 */
 h1 {
@@ -60,7 +104,7 @@ Buttons
 }
 
 /* EIT button */
-.button_container .eit_button {  
+.button_container .eit_button {
   background-image: url(elements/eit_logo.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -70,7 +114,6 @@ Buttons
 .button_container .eit_button:hover {
   border-bottom: 5px solid #136fd2;
 }
-
 
 /* Curtin button */
 .button_container .curtin_button {
@@ -92,13 +135,13 @@ Buttons
 
 @media only screen and (max-width: 858px) {
   .button_container {
-    display: block;
+      display: block;
   }
 
   .button_container .eit_button, .button_container .curtin_button {
-    width: 100%;
-    margin: 0;
-    border-radius: 0;
+      width: 100%;
+      margin: 0;
+      border-radius: 0;
   }
 }
 
