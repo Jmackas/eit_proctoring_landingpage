@@ -1,10 +1,15 @@
+/* Open Sans font import */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
 /*===============================
 Universal Elements
 ===============================*/
 /* Document target */
 body {
   margin: 0;
-  font-family: arial;
+  font-family: 'Open Sans', sans-serif;
   padding: 0;
   text-align: center;
   color: #bcbcbc;
